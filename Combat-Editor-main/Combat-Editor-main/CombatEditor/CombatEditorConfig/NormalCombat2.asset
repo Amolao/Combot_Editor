@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3cc89a5c4948249839705fe47e6dc8, type: 3}
+  m_Name: NormalCombat2
+  m_EditorClassIdentifier: 
+  duration: 2
+  frameRate: 30
+  tracks:
+  - guid: 764779b4fba447f8909c4cc802a7ab0a
+    displayName: Animation Track
+    trackType: 0
+    color: {r: 0.31, g: 0.62, b: 0.92, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: ccb7a2267bd24dd3a85af9b364ab514b
+      displayName: Animation Clip
+      startTime: 0
+      duration: 1.0845678
+      color: {r: 0.31, g: 0.62, b: 0.92, a: 1}
+      animationClip: {fileID: 7400000, guid: c191d81afb627c145be4a33fbb7fc639, type: 2}
+      animationState: Combo_Attack_01_02_V02
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 0}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 0}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+  - guid: 936e44a638ca4da0a581c5ab35275cec
+    displayName: Effect Track
+    trackType: 3
+    color: {r: 1, g: 0.62, b: 0.18, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: 07255364ed594438982e7b9c71100b0f
+      displayName: Effect Clip
+      startTime: 0.070987634
+      duration: 0.12654325
+      color: {r: 1, g: 0.62, b: 0.18, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 1840690549904964, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
+      effectOffset: {x: 0, y: 1.47, z: 1}
+      effectRotation: {x: 0, y: 0, z: -38.5}
+      effectScale: {x: -1, y: 1, z: 1}
+      audioClip: {fileID: 0}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+    - guid: 3cf50fa456fd49d1972aeb2070400015
+      displayName: Effect Clip
+      startTime: 0.29012355
+      duration: 0.1820988
+      color: {r: 1, g: 0.62, b: 0.18, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 1840690549904964, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 0}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+  - guid: 5ce3b74c1e8d4d768d2a5874f845a272
+    displayName: Audio Track
+    trackType: 4
+    color: {r: 0.65, g: 0.47, b: 0.95, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: 55eb417ca92e4975ac54b06fa32a8e69
+      displayName: Audio Clip
+      startTime: 0.06666667
+      duration: 0.16111106
+      color: {r: 0.65, g: 0.47, b: 0.95, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 0}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 8300000, guid: cd5eba5711aba2e46b332f2d837572f9, type: 3}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+    - guid: fdbb461c83c641faa9c580562fc7e8b6
+      displayName: Audio Clip
+      startTime: 0.32777786
+      duration: 0.15555546
+      color: {r: 0.65, g: 0.47, b: 0.95, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 0}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 8300000, guid: c854fd35fd65b4648b992e46483c3996, type: 3}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0

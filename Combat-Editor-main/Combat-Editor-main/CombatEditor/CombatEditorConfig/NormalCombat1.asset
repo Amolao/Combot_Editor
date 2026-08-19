@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3cc89a5c4948249839705fe47e6dc8, type: 3}
+  m_Name: NormalCombat1
+  m_EditorClassIdentifier: 
+  duration: 3
+  frameRate: 60
+  tracks:
+  - guid: "\u666E\u901A\u653B\u51FB"
+    displayName: "\u52A8\u753B\u8F68\u9053"
+    trackType: 0
+    color: {r: 0.31, g: 0.62, b: 0.92, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: ce838267b89540d6a53cfb5c9409e6c8
+      displayName: Animation Clip
+      startTime: 0
+      duration: 2.5
+      color: {r: 0.31, g: 0.62, b: 0.92, a: 1}
+      animationClip: {fileID: 7400000, guid: 93345eebc2a6f3e4eb3a568afe489d75, type: 2}
+      animationState: New State 0
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 0}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.011108398
+          value: -0.00008010864
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 0}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 0}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+  - guid: 18e4636359d0411ea5a883e207651bf7
+    displayName: Audio Track
+    trackType: 4
+    color: {r: 0.65, g: 0.47, b: 0.95, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: 20b5097f0eeb4ae68bd2f6fcaf873372
+      displayName: Audio Clip
+      startTime: 0.14999989
+      duration: 0.15555549
+      color: {r: 0.65, g: 0.47, b: 0.95, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 0}
+      effectOffset: {x: 0, y: 1, z: 1}
+      effectRotation: {x: 0, y: 0, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 8300000, guid: 69eb225711f41e34b8aef4afe5b389d8, type: 3}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
+  - guid: 89c301b2807a46369edb3b3c7d70fd58
+    displayName: Effect Track
+    trackType: 3
+    color: {r: 1, g: 0.62, b: 0.18, a: 1}
+    muted: 0
+    locked: 0
+    clips:
+    - guid: e4029c115130491a95b4895070138738
+      displayName: Effect Clip
+      startTime: 0.08888881
+      duration: 0.30555546
+      color: {r: 1, g: 0.62, b: 0.18, a: 1}
+      animationClip: {fileID: 0}
+      animationState: 
+      animationSpeed: 1
+      moveOffset: {x: 0, y: 0, z: 1.5}
+      moveCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      hitboxOffset: {x: 0, y: 1, z: 1}
+      hitboxRadius: 0.8
+      damage: 30
+      poiseDamage: 10
+      hitboxTag: Attack
+      effectPrefab: {fileID: 1840690549904964, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
+      effectOffset: {x: 0, y: 1.28, z: 1.56}
+      effectRotation: {x: 0, y: -36.56, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      audioClip: {fileID: 0}
+      audioVolume: 1
+      cameraShake: {x: 0.15, y: 0.15, z: 0.15}
+      cameraFovDelta: 3
+      eventName: OnSkillEvent
+      stringPayload: 
+      intPayload: 0
+      floatPayload: 0
